@@ -67,7 +67,7 @@ I don't just contribute features. I **own systems end-to-end**: auth, permission
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com?user=somanisuryateja&theme=radical&hide_border=true&background=0D1117" width="55%" alt="streak"/>
+  <img src="https://streak-stats.demolab.com?user=somanisuryateja&theme=radical&hide_border=true&background=0D1117" width="55%" alt="streak"/>
 </div>
 
 ---
