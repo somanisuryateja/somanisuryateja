@@ -1,20 +1,21 @@
 <!--
-  Style mix: CyrisXD hero discipline + thmsgbrt products-first + DenverCoder1 polish
-  Palette: deep ink #0B1220 · electric teal #14B8A6 · amber #F59E0B (not purple/radical)
+  Visual system: GitSkins theme=ocean
+  Cards: https://www.gitskins.com  |  Skin: /showcase/somanisuryateja  |  Wrapped: /wrapped/somanisuryateja
+  Copy: products first, feature ownership (not whole-platform claims)
 -->
 <div align="center">
 
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:042F2E,50:0F766E,100:2DD4BF&section=header&text=Surya%20Teja&fontSize=56&fontAlignY=38&fontColor=ffffff&animation=fadeIn&desc=Full%20Stack%20Engineer%20%C2%B7%20MERN%20%C2%B7%20Production%20Systems%20%C2%B7%20Hyderabad&descAlignY=60&descSize=16&descColor=ECFDF5"
+    src="https://www.gitskins.com/api/card?username=somanisuryateja&theme=ocean"
     width="100%"
-    alt="Surya Teja — Full Stack Engineer"
+    alt="Surya Teja — GitSkins profile card (ocean)"
   />
 
   <br/>
 
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&multiline=true&width=780&height=85&lines=I+own+production+systems+end-to-end;240%2B+merged+PRs+%7C+2+live+products+%7C+10+repos;React+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+JWT+%C2%B7+RBAC"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=5EEAD4&center=true&vCenter=true&multiline=true&width=780&height=85&lines=Owns+features+end-to-end+-+schema+to+release;244+merged+PRs+%7C+2+live+products+%7C+10+repos;React+%C2%B7+Node.js+%C2%B7+MongoDB+%C2%B7+JWT+%C2%B7+RBAC"
       alt="typing"
     />
   </a>
@@ -24,11 +25,13 @@
   <p>
     <a href="https://www.linkedin.com/in/somanisuryateja"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     &nbsp;
-    <a href="https://suryadeals.com"><img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+    <a href="https://suryadeals.com"><img src="https://img.shields.io/badge/Portfolio-0E7490?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
     &nbsp;
     <a href="mailto:surya76755416@gmail.com"><img src="https://img.shields.io/badge/Email-F59E0B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=somanisuryateja&style=for-the-badge&color=0F766E&label=Profile+Views" alt="views"/>
+    <a href="https://www.gitskins.com/showcase/somanisuryateja"><img src="https://img.shields.io/badge/GitSkins_Skin-082F49?style=for-the-badge" alt="GitSkins skin"/></a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=somanisuryateja&style=for-the-badge&color=0E7490&label=Profile+Views" alt="views"/>
   </p>
 
 </div>
@@ -37,13 +40,13 @@
 
 ## Live products
 
-Production platforms I build and ship — click through; they load.
+Production platforms I ship — click through; they load. Most delivery lives in private employment repos, so public stars are not the signal.
 
 | Product | What it does | Stack | Status |
 |:--------|:-------------|:------|:------:|
-| **[Corporate Relations](https://corporaterelations.codegnan.ai/)** | Placements platform — jobs, eligibility, applications, manager approvals, email / WhatsApp notifications | React · Node · MongoDB · JWT · SSE | `LIVE` |
-| **[Codegnan Edge LMS](https://codegnanedge.com/)** | Learning portal — student dashboards, live support, course flows | React · Express · MongoDB · Redux | `LIVE` |
-| **[suryadeals.com](https://suryadeals.com)** | Personal site — self-hosted on Oracle Cloud + Nginx + SSL | Next.js · OCI · Nginx | `LIVE` |
+| **[Corporate Relations](https://corporaterelations.codegnan.ai/)** | Placements platform — jobs, eligibility filters, applications, manager approvals, email / WhatsApp notifications | React · Node · MongoDB · JWT · RBAC | `LIVE` |
+| **[Codegnan Edge LMS](https://codegnanedge.com/)** | Learning portal — courses, enrollments, progress, quizzes, certificates, live classes, Razorpay | React · Express · MongoDB · Redux | `LIVE` |
+| **[suryadeals.com](https://suryadeals.com)** | Personal tech + cybersecurity-awareness brand — self-hosted on Oracle Cloud + Nginx + SSL | Next.js · OCI · Nginx | `LIVE` |
 
 ---
 
@@ -53,23 +56,24 @@ Production platforms I build and ship — click through; they load.
 const surya = {
   name: "Somani Abdulla Surya Teja",
   role: "Full Stack Engineer",
+  founder: "Suryadeals",
   company: "Codegnan IT Solutions",
   location: "Hyderabad, India",
   experience: "1.5+ years production MERN",
-  owns: [
-    "JWT + refresh (httpOnly)",
-    "RBAC / permission guards",
-    "REST APIs + MongoDB models",
-    "React dashboards",
-    "Background mailer jobs",
-    "LMS ↔ placements integration",
+  ownsEndToEnd: [
+    "JWT access + httpOnly refresh tokens",
+    "authorization / RBAC at the API layer",
+    "REST APIs + MongoDB schema",
+    "React dashboards and release",
+    "background mailer + delivery tracking",
+    "LMS <-> placements integration",
   ],
-  delivery: { mergedPRs: "240+", repos: 10, liveProducts: 2 },
-  openTo: ["Full Stack", "Software Engineer", "Remote-friendly"],
+  delivery: { mergedPRs: 244, commits: 963, repos: 10, liveProducts: 2 },
+  openTo: ["Full Stack", "Software Engineer", "Hyderabad / Remote India"],
 };
 ```
 
-Full Stack Engineer shipping production MERN apps end-to-end — schema and APIs through React UI and release. I don't just contribute tickets; I **own systems**.
+Full Stack Engineer shipping production MERN apps end-to-end — from MongoDB schema and REST APIs to React UI and release. Owns features end-to-end, not ticket-only UI: authentication, authorization and RBAC, hiring workflows, learning-platform features, payments, and cross-service integration.
 
 ---
 
@@ -80,34 +84,22 @@ Full Stack Engineer shipping production MERN apps end-to-end — schema and APIs
 </div>
 
 <p align="center">
-  <strong>Core:</strong> REST design · JWT + refresh · Role guards · MongoDB modeling · Dashboards · Background jobs · Cross-service integration
+  <strong>Core:</strong> React.js · Node.js · Express.js · MongoDB · REST APIs · JWT Auth · authorization / RBAC · Git · Agile
+  <br/>
+  <strong>Also in production:</strong> Next.js · TypeScript · Redux Toolkit · Tailwind CSS · Python (Flask, FastAPI) · AWS S3 · Razorpay · Docker
 </p>
 
 ---
 
-## Stats
+## Language mix
+
+Public-repo mix via [GitSkins](https://www.gitskins.com/github-readme-stats-card). Production work also includes TypeScript, Python (Flask / FastAPI), and MongoDB.
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=somanisuryateja&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B1220&title_color=14B8A6&text_color=E2E8F0&icon_color=F59E0B&ring_color=14B8A6"
-    height="165"
-    alt="GitHub stats"
-  />
-  &nbsp;&nbsp;
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=somanisuryateja&layout=compact&hide_border=true&bg_color=0B1220&title_color=14B8A6&text_color=E2E8F0"
-    height="165"
-    alt="Top languages"
-  />
-</div>
-
-<br/>
-
-<div align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=somanisuryateja&theme=dark&hide_border=true&background=0B1220&ring=14B8A6&fire=F59E0B&currStreakLabel=14B8A6"
-    width="55%"
-    alt="streak"
+    src="https://www.gitskins.com/api/languages?username=somanisuryateja&theme=ocean"
+    width="72%"
+    alt="GitSkins language mix — ocean theme"
   />
 </div>
 
@@ -135,6 +127,16 @@ Full Stack Engineer shipping production MERN apps end-to-end — schema and APIs
 
 ---
 
+## Share
+
+<div align="center">
+
+[GitSkins profile skin](https://www.gitskins.com/showcase/somanisuryateja) · [2025 Wrapped](https://www.gitskins.com/wrapped/somanisuryateja)
+
+</div>
+
+---
+
 ## Let's build
 
 <div align="center">
@@ -144,9 +146,3 @@ Full Stack Engineer shipping production MERN apps end-to-end — schema and APIs
 [LinkedIn](https://www.linkedin.com/in/somanisuryateja) · [Portfolio](https://suryadeals.com) · [Email](mailto:surya76755416@gmail.com) · +91 7675050247
 
 </div>
-
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:14B8A6,50:0F766E,100:0B1220&animation=twinkling"
-  width="100%"
-  alt="footer"
-/>
